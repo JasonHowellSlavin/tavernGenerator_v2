@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+
+class Generator extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            words: [],
+        };
+    }
+
+    componentDidMount() {
+    
+    }
+
+    render() {
+        return (
+                <div className="Generator">
+                </div>
+        );
+    }
+}
+
+export default Generator;
